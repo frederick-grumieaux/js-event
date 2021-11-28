@@ -14,7 +14,8 @@
     },
     "scripts": {
         "build": "tsc",
-        "test": "jest"
+        "test": "jest",
+        "publish": "npm run build && npm publish --access public"
     },
     "browserslist": {
         "production": [
@@ -34,5 +35,8 @@
         "babel-jest": "^27.3.1",
         "jest": "^27.3.1",
         "ts-jest": "^27.0.7"
-    }
+    },
+    "files": [
+        "dist"
+    ]
 }
