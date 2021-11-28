@@ -1,0 +1,14 @@
+-- reminders to self --
+
+publish to NPM:
+run following commands in the cli:
+
+1) npm login
+username = frgr
+email = gmail adress with "+npm"
+
+2) npm publish --access public
+
+to run the tests:
+npm run test
+
