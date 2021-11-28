@@ -1,0 +1,32 @@
+{
+    "name": "js-event",
+    "version": "0.1.0",
+    "private": false,
+    "dependencies": {
+        "typescript": "^4.5.2"
+    },
+    "scripts": {
+        "start": "",
+        "build": "tsc",
+        "test": "jest"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.16.4",
+        "@types/jest": "^27.0.3",
+        "babel-jest": "^27.3.1",
+        "jest": "^27.3.1",
+        "ts-jest": "^27.0.7"
+    }
+}
